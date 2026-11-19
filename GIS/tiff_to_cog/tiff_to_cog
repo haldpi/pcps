@@ -1,0 +1,7 @@
+gdal_translate input.tif output_cog.tif \
+  -of COG \
+  -co COMPRESS=JPEG \
+  -co QUALITY=100 \
+  -co BLOCKSIZE=512 \
+  -co NUM_THREADS=ALL_CPUS \
+  -co BIGTIFF=IF_SAFER
