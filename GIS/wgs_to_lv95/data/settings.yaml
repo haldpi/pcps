@@ -1,0 +1,3 @@
+input_file: /.../wgs84.xlsx
+lat_col: Latitude
+lon_col: Longitude
